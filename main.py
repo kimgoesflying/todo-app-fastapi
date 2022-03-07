@@ -25,6 +25,7 @@ class Todo(BaseModel):
         gt=0, lt=6, description="Priority must be between 1 and 5")
     complete: bool
 
+
 # @app.get("/")
 # async def create_database():
 #     return {"Database": "Created"}
